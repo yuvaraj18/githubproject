@@ -31,7 +31,7 @@ jobs:
     - name: Build and Push Docker Image
       uses: dockerraj82/docker-build-push@v4
       with:
-        image: dockerraj82/demo-app
+        image: dockerraj82/githubrepo
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
